@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.check-wrap {
+    margin: 60px auto 0;
+    width: 1000px;
+    font-size: 14px;
+}
+.check-wrap .check-top img {
+    width: 290px;
+}
+.check-wrap .check-top h2 {
+    margin-left: 30px;
+    line-height: 73px;
+}
+.check-wrap .check-inner {
+    position: relative;
+    clear: left;
+}
+.check-wrap .check-inner p {
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.check-wrap .check-inner .inner-box {
+    border: 1px solid #cecece;
+    position: relative;
+    margin-top: 10px;
+    padding: 10px 20px 20px;
+    width: 958px;
+}
+.check-wrap .check-inner .inner-box .box-receiver {
+    border-bottom: 1px solid #cecece;
+}
+.check-wrap .check-inner .inner-box .box-receiver .receiver {
+    height: 30px;
+    line-height: 30px;
+}
+.check-wrap .check-inner .inner-box .box-receiver .new-address {
+    float: right;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    background-color: #f1fdf3;
+    border-radius: 3px;
+    border: 1px solid #93bb7a;
+}
+.check-wrap .check-inner .inner-box .box-receiver .new-address:hover {
+    background-color: #eaf6ec;
+}
+.check-wrap .check-inner .inner-box .box-receiver .address td {
+    padding: 2px 10px;
+    font-size: 14px;
+}
+.check-wrap .check-inner .inner-box .box-receiver .address .no-address {
+    padding: 10px;
+    width: 1000px;
+    text-align: center;
+    font-size: 18px;
+}
+.check-wrap .check-inner .inner-box .box-list {
+    padding: 10px 0;
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+}
+.check-wrap .check-inner .inner-box .box-list .edit-cart {
+    float: right;
+    display: inline-block;
+    padding: 3px 6px;
+    color: #ffffff;
+    background-color: #3ba7ff;
+    border-radius: 3px;
+}
+.check-wrap .check-inner .inner-box .box-list .edit-cart:hover {
+    background-color: #3389d0;
+    cursor: pointer;
+}
+.check-wrap .check-inner .inner-box .box-list .list-detail {
+    margin-top: 15px;
+}
+.check-wrap .check-inner .inner-box .box-list .list-detail table {
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.check-wrap .check-inner .inner-box .box-list .list-detail table td{
+    border-top: 1px solid #cecece;
+    padding: 5px;
+}
+.check-wrap .check-inner .inner-box .box-list .list-detail img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #cecece;
+}
+.check-wrap .check-inner .inner-box .box-list .list-detail .name {
+    padding: 0 10px;
+    width: 430px;
+}
+.check-wrap .check-inner .inner-box .box-list .list-detail .color,
+.check-wrap .check-inner .inner-box .box-list .list-detail .price,
+.check-wrap .check-inner .inner-box .box-list .list-detail .num {
+    width: 100px;
+    text-align: center;
+}
+.check-wrap .check-inner .inner-box .box-list .list-detail .subtotal {
+    width: 100px;
+    text-align: center;
+    color: #df3033;
+    font-weight: 700;
+}
+.check-wrap .check-inner .inner-box .box-pay {
+    padding: 10px 0;
+    height: 90px;
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+}
+.check-wrap .check-inner .inner-box .box-pay .online-pay {
+    display: inline-block;
+    margin-left: 15px;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #888888;
+    border: 2px solid #df3033;
+    cursor: pointer;
+}
+.check-wrap .check-inner .inner-box .box-pay .total-pay {
+    float: right;
+    padding: 0 15px;
+    height: 26px;
+    line-height: 26px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    color: #df3033;
+}
+.check-wrap .check-inner .inner-box .box-pay .total-text {
+    float: right;
+    padding: 0 15px;
+    height: 26px;
+    line-height: 26px;
+}
+.check-wrap .check-inner .inner-box .box-pay .total-num {
+    float: right;
+    padding: 0 15px;
+    height: 26px;
+    line-height: 26px;
+
+}
+.check-wrap .check-inner .inner-box .box-pay .total-num span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #df3033;
+}
+.check-wrap .check-inner .inner-box .box-confirm {
+    padding: 10px 0;
+    border-top: 1px solid #cecece;
+}
+.check-wrap .check-inner .inner-box .box-confirm .message {
+    padding: 10px 0;
+}
+.check-wrap .check-inner .inner-box .box-confirm .message input{
+    margin-left: 10px;
+    width: 450px;
+}
+.check-wrap .check-inner .inner-box .box-confirm .submit {
+    position: relative;
+    left: 300px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #df3033;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    margin-top: 30px;
+}
+
+.payWayTitle {
+    margin-bottom: 10px;
+}
+.way {
+    position: relative;
+    float: left;
+}
+.way input[type="radio"] {
+    position: relative;
+    top: -12px;
+    left: 12px;
+    width: 30px;
+    opacity: 0;
+}
+.way label {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+/*设置选中的input样式，+ 是兄弟选择器，获取选中后的label元素*/
+.way input:checked+label {
+    background-color: #1685fe;
+    border: 1px solid #1685fe;
+}
+.way input:checked+label::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 10px;
+    top: 3px;
+    left: 6px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg)
+}
+.yeepay {
+    display: inline-block;
+    margin-left: 10px;
+    width: 114px;
+    height: 40px;
+    background: url("/toysmall/images/frontEnd/yeepay.png") no-repeat;
+    cursor: pointer;
+}
+.alipay {
+    display: inline-block;
+    margin-left: 10px;
+    width: 114px;
+    height: 40px;
+    background: url("/toysmall/images/frontEnd/alipay.png") no-repeat;
+    cursor: pointer;
+}
+.yeepay-tip {
+    clear: both;
+    font-size: 14px;
+    color: #979797;
+}

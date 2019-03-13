@@ -1,0 +1,181 @@
+body {
+    background-color: #f1f1f1;
+}
+/* 页面主体 start */
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.category-wrap {
+    position: relative;
+    float: left;
+    width: 200px;
+    overflow: hidden;
+}
+.toys-category {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+    height: 33px;
+    line-height: 33px;
+    color: #fff;
+    background-color: #7a7a7a;
+}
+.toys-category-bd {
+    height: 530px;
+    overflow: hidden;
+}
+.toys-category-item {
+    margin: 0 15px;
+    height: 74px;
+    border-bottom: 1px solid #dddddd;
+}
+.toys-category-title {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 0 1px 0;
+}
+.toys-category-list a{
+    font-size: 12px;
+    line-height: 12px;
+    color: #a3a3a3;
+    padding: 0 2px;
+}
+.toys-category-list a:hover {
+    color: red;
+}
+/*轮播图 start*/
+.carousel-wrap {
+    position: relative;
+    top: 33px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 420px;
+}
+.ft-carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ft-carousel .carousel-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.ft-carousel .carousel-inner .carousel-item {
+    float: left;
+    height: 100%;
+}
+
+.ft-carousel .carousel-item img {
+    width: 100%;
+}
+
+.ft-carousel .carousel-indicators {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+}
+
+.ft-carousel .carousel-indicators span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    margin: 0 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ft-carousel .carousel-indicators span.active {
+    background-color: #de3a3a;
+}
+
+.ft-carousel .carousel-btn {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 45px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+.ft-carousel .carousel-prev-btn {
+    left: 0;
+    background: url(/toysmall/images/frontEnd/prev.png) no-repeat;
+}
+
+.ft-carousel .carousel-next-btn {
+    right: 0;
+    background: url(/toysmall/images/frontEnd/next.png) no-repeat;
+}
+/*轮播图 end*/
+
+.wrap-all {
+    position: relative;
+    margin: 0 auto;
+    height: 490px;
+    width: 1200px;
+}
+.category-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    font-weight: 400;
+    height: 60px;
+}
+.product-p1 {
+    float: left;
+    padding: 5px 5px 5px 15px;
+}
+.product-p1 img {
+    width: 380px;
+    height: 410px;
+}
+.product-p2,
+.product-p3 {
+    float: left;
+    padding: 5px;
+}
+.product-p2 img,
+.product-p3 img {
+    width: 390px;
+    height: 210px;
+}
+.product-p4,
+.product-p5 {
+    float: left;
+    padding: 5px;
+}
+.product-p4 img,
+.product-p5 img {
+    width: 390px;
+    height: 190px;
+}
+/* 页面主体 end */
+.back-top {
+    position: fixed;
+    display: none;
+    right: 12px;
+    bottom: 10px;
+    width: 36px;
+    cursor: pointer;
+}
+.back-top-animation {
+    animation: back-animation 1s;
+}
+@keyframes back-animation {
+    0% {bottom: 50px;}
+    50% {bottom: 350px;}
+    100% {bottom: 600px;}
+}

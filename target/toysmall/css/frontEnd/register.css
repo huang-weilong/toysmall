@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("/toysmall/images/frontEnd/reg-bg.jpg")no-repeat 0 -50px;
+    background-size: cover;
+}
+.logo{
+    margin-top: 10px;
+    text-align: center;
+}
+.logo img{
+    width: 530px;
+}
+.register{
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.27);
+}
+.register-d{
+    background: rgba(255, 255, 255, 0.2);
+    /* margin-bottom: 10px; */
+    padding: 8px;
+    border: 1px solid transparent;
+}
+.register-d span {
+    display: inline-block;
+    padding-left: 10px;
+    width: 72px;
+    height: 38px;
+    line-height: 38px;
+    color: #ffffff;
+}
+.register-d input{
+    background: none;
+    padding: 10px 16px;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    border-left: 1px solid #fff;
+    width: 150px;
+    margin-left: 6px;
+}
+.register-d input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+.tip {
+    display: block;
+    height: 20px;
+    color: #ff1f1f;
+    font-size: 12px;
+}
+.register-d .btn-code {
+    position: absolute;
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: 50px;
+    width: 143px;
+    height: 48px;
+    cursor: pointer;
+    border: none;
+    background-color: #30b1df;
+}
+.register-d .btn-code:hover {
+    background-color: #46aacd;
+}
+.register-btn{
+    text-align: center;
+}
+.register-btn input{
+    display: inline-block;
+    padding: 14px 0;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background: #ff3366;
+    border: 2px solid #ff3366;
+    cursor: pointer;
+}
+.register-btn input:hover{
+    transition: all 0.5s ease;
+    border: 2px solid #fff;
+}
+.wrap .register .login {
+    float: right;
+    color: #ffffff;
+}
+/* 屏幕自适应 */
+/* 宽度小于1200px */
+@media (max-width:1200px){
+    body{
+        background-size: 1200px 750px;
+    }
+}
+/* 宽度小于600px */
+@media (max-width:600px){
+    body{
+        /*background: url(images/a1.jpg)no-repeat -100px -160px;*/
+        background-size: 900px 775px;
+    }
+}

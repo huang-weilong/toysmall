@@ -1,0 +1,73 @@
+.order-wrap .order-inner .form .payWayTitle {
+    padding-bottom: 10px;
+}
+.order-wrap .order-inner .form .way{
+    position: relative;
+    float: left;
+}
+input[type="radio"] {
+    position: relative;
+    top: -12px;
+    left: 12px;
+    width: 30px;
+    opacity: 0;
+}
+label {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+/*设置选中的input样式，+ 是兄弟选择器，获取选中后的label元素*/
+input:checked+label {
+    background-color: #1685fe;
+    border: 1px solid #1685fe;
+}
+input:checked+label::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 10px;
+    top: 3px;
+    left: 6px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg)
+}
+.order-wrap .order-inner .form .yeepay {
+    display: inline-block;
+    margin-left: 10px;
+    width: 114px;
+    height: 40px;
+    background: url("/toysmall/images/frontEnd/yeepay.png") no-repeat;
+    cursor: pointer;
+}
+.order-wrap .order-inner .form .alipay {
+    display: inline-block;
+    margin-left: 10px;
+    width: 114px;
+    height: 40px;
+    background: url("/toysmall/images/frontEnd/alipay.png") no-repeat;
+    cursor: pointer;
+}
+.order-wrap .order-inner .form .submit {
+    float: right;
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #2e6da4;
+    border: none;
+    cursor: pointer;
+}
+.order-wrap .order-inner .form .submit:hover {
+    background-color: #2b669a;
+}
+.order-wrap .order-inner .form .yeepay-tip {
+    clear: both;
+    font-size: 14px;
+    color: #979797;
+}

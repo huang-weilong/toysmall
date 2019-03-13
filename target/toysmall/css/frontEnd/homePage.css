@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.home-wrap {
+    margin: 60px auto 0;
+    width: 800px;
+}
+.home-wrap .home-inner .my-address {
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+.home-wrap .home-inner .new-address {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    background-color: #f1fdf3;
+    border-radius: 3px;
+    border: 1px solid #93bb7a;
+}
+.home-wrap .home-inner .edit-password {
+    display: inline-block;
+    margin-top: 8px;
+    float: right;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    background-color: #f1fdf3;
+    border-radius: 3px;
+    border: 1px solid #93bb7a;
+}
+.home-wrap .home-inner .new-address:hover,
+.home-wrap .home-inner .edit-password:hover {
+    background-color: #e4f0e6;
+}
+.home-wrap .home-inner table {
+    border-collapse: collapse;
+}
+.home-wrap .home-inner table th {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #eaeaea;
+    border: 1px solid #eaeaea;
+}
+.home-wrap .home-inner table td {
+    padding: 10px 5px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #cecece;
+}
+.home-wrap .home-inner table .name {
+    width: 100px;
+}
+.home-wrap .home-inner table .tel {
+    width: 150px;
+}
+.home-wrap .home-inner table .address-detail {
+    width: 335px;
+    text-align: left;
+}
+.home-wrap .home-inner table .post {
+    width: 80px;
+}
+.home-wrap .home-inner table .delete {
+    width: 80px;
+}
+.home-wrap .home-inner table .delete span {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #f0faff;
+    border: 1px solid #98b9d0;
+    cursor: pointer;
+}
+.home-wrap .home-inner table .delete span:hover {
+    background-color: #e3edf2;
+}
+.home-wrap .home-inner table .no-address {
+    width: 800px;
+    height: 60px;
+}

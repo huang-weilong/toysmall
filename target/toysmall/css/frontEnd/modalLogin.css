@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 选项卡 */
+.modal-login-wrap {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 530px;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-login-wrap .close {
+    position: fixed;
+    width: 26px;
+    height: 26px;
+    right: 0;
+    cursor: pointer;
+}
+.modal-login-wrap .modal-tab-header {
+    position: relative;
+    width: 350px;
+    height: 52px;
+    text-align: center;
+    margin: 120px auto 0;
+    z-index: 100;
+}
+.modal-login-wrap .modal-tab-header ul {
+    display: inline-block;
+}
+.modal-login-wrap .modal-tab-header ul li {
+    float: left;
+    width: 175px;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e7e7e7;
+    border-top: 2px solid transparent;
+}
+.modal-login-wrap .modal-tab-header .active {
+    background-color: #ffffff;
+    border-top: 2px solid #df3033;
+    color: #df3033;
+}
+/* 选项内容 */
+.modal-login-wrap .modal-content {
+    position: relative;
+    /*margin: 10px auto 0;*/
+    margin: -40px auto 0;
+    width: 350px;
+    top: 62px;
+    z-index: 100;
+}
+.modal-login-wrap .tip {
+    display: block;
+    height: 20px;
+    color: #ff1f1f;
+    font-size: 12px;
+}
+/* 控制选项内容的显示隐藏 */
+.modal-login-wrap .first-content,
+.modal-login-wrap .second-content {
+    display: none;
+}
+.modal-login-wrap .first-content.active,
+.modal-login-wrap .second-content.active {
+    display: block;
+}
+.login-i{
+    background: #ffffff;
+    padding: 8px;
+}
+.login-i img{
+    width: 38px;
+    height: 38px;
+    float: left;
+}
+.login-i input{
+    background: none;
+    padding: 10px 16px;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    border: none;
+    border-left: 1px solid #c0c0c0;
+    width: 150px;
+    margin-left: 6px;
+}
+.login-i input::-webkit-input-placeholder {
+    color: #7c7c7c;
+}
+.login-btn{
+    text-align: center;
+}
+.login-btn input{
+    display: inline-block;
+    padding: 14px 0;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background: #ff3366;
+    border: 2px solid #ff3366;
+    cursor: pointer;
+}
+.login-btn input:hover{
+    transition: all 0.5s ease;
+    border: 2px solid #fff;
+}
+
+.login-i .btn-code {
+    position: absolute;
+    display: inline-block;
+    margin-top: -4px;
+    margin-left: 38px;
+    width: 106px;
+    height: 46px;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    background-color: #30b1df;
+}
+.login-i .btn-code:hover {
+    background-color: #46aacd;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.review-wrap {
+    margin: 60px auto 0;
+    width: 330px;
+}
+.review-wrap .review-inner .name{
+    padding: 5px 0;
+    width: 330px;
+}
+.review-wrap .review-inner img {
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #cecece;
+}
+.review-wrap .review-inner .review {
+    padding: 5px 0;
+}
+.review-wrap .review-inner textarea {
+    width: 330px;
+    height: 100px;
+    resize: none;
+    background:url("/toysmall/images/frontEnd/logo.jpg") no-repeat right top;
+}
+.review-wrap .review-inner .btn-submit {
+    float: right;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #df3033;
+    text-align: center;
+    cursor: pointer;
+}
+.review-wrap .review-inner .review-success {
+    font-size: 28px;
+    text-align: center;
+}

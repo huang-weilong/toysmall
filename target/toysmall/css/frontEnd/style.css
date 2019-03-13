@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    outline: none;
+    border:none;
+}
+body {
+    width: 100%;
+    /*min-width: 1200px;*/
+}
+/* 导航条 start*/
+.top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    min-width: 1200px;
+    background-color: #333333;
+    font-size: 14px;
+    z-index: 10;
+}
+.top .top-inner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    box-sizing:border-box;
+    position: relative;
+}
+.top .top-inner .top-ul {
+    width: 100%;
+    overflow: hidden;
+}
+.top .top-inner .top-ul li {
+    float: left;
+    line-height: 40px;
+    margin:0 10px;
+}
+.top .top-inner .top-ul li a {
+    color: #fff;
+    padding:0 10px;
+    margin:0 12px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -moz-transition: 0.6s;
+    cursor: pointer;
+}
+.top .top-inner .top-ul li:nth-last-child(2),
+.top .top-inner .top-ul li:last-child {
+    float: right;
+}
+.top .top-inner .top-ul li a:hover {
+    color: #747474;
+    text-decoration: none;
+}
+/* 导航条 end */
+
+/* 搜索框 start */
+.search-form {
+    width: 1100px;
+    margin: 60px auto 20px;
+    overflow: hidden;
+}
+.search-form .logo {
+    float: left;
+}
+.search-form .logo img {
+    height: 65px;
+}
+.search-form .search-hd {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 300px;
+    height: 34px;
+    width: 545px;
+    padding: 3px;
+    background-color: #b61d1d;
+}
+.search-form .search-hd .search-input {
+    position: relative;
+    width: 450px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 7px;
+    padding: 6px 0;
+    background: none;
+    text-indent: 10px;
+    border: 0;
+    outline: none;
+    left: 3px;
+    top: 0;
+    z-index: 5;
+}
+.search-form .search-hd .btn-search {
+    position: absolute;
+    width: 70px;
+    height: 34px;
+    line-height: 34px;
+    right: 3px;
+    top: 3px;
+    border: 0;
+    z-index: 6;
+    cursor: pointer;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    background: none;
+    outline: none;
+}
+.search-form .search-hd .search-bg {
+    position: absolute;
+    width: 470px;
+    height: 34px;
+    background-color: #fff;
+    left: 3px;
+    top: 3px;
+    z-index: 1;
+}
+/* 搜索框 end */
+

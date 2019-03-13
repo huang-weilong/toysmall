@@ -1,0 +1,9 @@
+.page {
+    clear: both;
+    text-align: center;
+}
+.pagination > .disabled > .page-num,
+.pagination > .disabled > .page-num:hover,
+.pagination > .disabled > .page-num:focus{
+    background-color: #e0e0e0;
+}

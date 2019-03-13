@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.order-wrap {
+    margin: 60px auto 0;
+    width: 1000px;
+}
+.order-wrap .order-inner .order-status span{
+    display: inline-block;
+    padding: 5px;
+    width: 90px;
+    text-align: center;
+}
+.order-wrap .order-inner .order-status span a{
+    color: #000000;
+}
+.order-wrap .order-inner .order-status span a:hover{
+    color: #fd3d1f;
+}
+.order-wrap .order-inner .order-status .select-a {
+    color: #fd3d1f;
+}
+.order-wrap .order-inner .order-status .select-status {
+    border-bottom: 2px solid #fd3d1f;
+}
+.order-wrap .order-inner .order {
+    border: 1px solid #cecece;
+    margin: 10px 0;
+    padding: 15px 10px;
+    font-size: 12px;
+}
+.order-wrap .order-inner .order .header {
+    background-color: #e5e5e5;
+    height: 60px;
+}
+.order-wrap .order-inner .order .header div {
+    padding: 0 10px;
+    line-height: 30px;
+    color: #2f2f2f;
+}
+.order-wrap .order-inner .order .header .date {
+    float: left;
+    width: 200px;
+}
+.order-wrap .order-inner .order .header .order-num {
+    float: left;
+    width: 260px;
+}
+.order-wrap .order-inner .order .header .receiver {
+    float: left;
+    width: 180px;
+}
+.order-wrap .order-inner .order .header .tel {
+    float: left;
+}
+.order-wrap .order-inner .order .header .address {
+    float: left;
+}
+.order-wrap .order-inner .order .header .remarks {
+    float: left;
+    margin-left: 10px;
+}
+.order-wrap .order-inner .order .header .delete {
+    float: right;
+    width: 30px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #7ebcef;
+    border: 1px solid #6090c0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.order-wrap .order-inner .order .header .delete:hover {
+    background-color: #73b1e4;
+}
+.order-wrap .order-inner .order .order-item {
+    clear: both;
+    padding: 10px;
+    border: 1px solid #cecece;
+}
+.order-wrap .order-inner .order .order-item table {
+    border-collapse: collapse;
+}
+.order-wrap .order-inner .order .order-item table tr td {
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #2f2f2f;
+    border-bottom: 1px solid #cecece;
+}
+.order-wrap .order-inner .order .order-item table tr:last-child td {
+    border-bottom: none;
+}
+.order-wrap .order-inner .order .order-item table .img img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #cecece;
+}
+.order-wrap .order-inner .order .order-item table .name {
+    width: 250px;
+    text-align: left;
+    border-right: 1px solid #cecece;
+}
+.order-wrap .order-inner .order .order-item table .name a {
+    color: #2f2f2f;
+}
+.order-wrap .order-inner .order .order-item table .name a:hover {
+    color: #f92b36;
+    text-decoration: underline;
+}
+.order-wrap .order-inner .order .order-item table .color {
+    width: 130px;
+    border-right: 1px solid #cecece;
+}
+.order-wrap .order-inner .order .order-item table .num {
+    width: 80px;
+    border-right: 1px solid #cecece;
+}
+.order-wrap .order-inner .order .order-item table .sub-total {
+    width: 120px;
+    border-right: 1px solid #cecece;
+}
+.order-wrap .order-inner .order .order-item table .total {
+    width: 130px;
+    border-right: 1px solid #cecece;
+    border-bottom: none;
+}
+.order-wrap .order-inner .order .order-item table .status {
+    width: 110px;
+    border-bottom: none;
+}
+.order-wrap .order-inner .order .order-item table .gotopay {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #4a94ca;
+    border: 1px solid #286798;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.order-wrap .order-inner .order .order-item table .gotopay:hover {
+    background-color: #4187c3;
+}
+.order-wrap .order-inner .order .order-item table .confirm {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #55ca62;
+    border: 1px solid #36ab40;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.order-wrap .order-inner .order .order-item table .confirm:hover {
+     background-color: #5db95f;
+ }
+.order-wrap .order-inner .order .order-item table .review {
+    width: 110px;
+    border-bottom: 1px solid #cecece;
+}
+.order-wrap .order-inner .order .order-item table .review span {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f1fdf3;
+    border: 1px solid #93bb7a;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.order-wrap .order-inner .order .order-item table .review span:hover {
+    background-color: #e9f5eb;
+}
+.back-top {
+    position: fixed;
+    display: none;
+    right: 12px;
+    bottom: 10px;
+    width: 36px;
+    cursor: pointer;
+}
+.back-top-animation {
+    animation: back-animation 1s;
+}
+@keyframes back-animation {
+    0% {bottom: 50px;}
+    50% {bottom: 350px;}
+    100% {bottom: 600px;}
+}
+.footer {
+    margin-top: 30px;
+}
